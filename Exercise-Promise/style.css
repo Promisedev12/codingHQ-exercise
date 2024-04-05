@@ -1,0 +1,189 @@
+/*********CSS varables**************/
+
+:root {
+  --pink-crl: #f09dab;
+  --light-pink: #f3cdd2;
+  --gray-crl: #ddd6d6;
+  --title-back-crl: #423c3c;
+  --main-black: #000000;
+  --main-white: #ffffff;
+}
+
+/************ General  styles *************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ece4e4;
+  padding: 0 20vw;
+}
+img {
+  width: 100%;
+}
+.h2-right {
+  background-color: var(--title-back-crl);
+  color: var(--main-white);
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.h2-left {
+  text-align: center;
+  margin-bottom: 10px;
+  color: var(--main-black);
+}
+.area {
+  margin: 10px 40px;
+  margin-right: 0;
+}
+.pink {
+  background-color: var(--pink-crl);
+}
+.light-pink {
+  background-color: var(--light-pink);
+}
+/************ End of General  styles *************/
+
+/********Head section styles*******/
+header {
+  /* display: flex; */
+  background-color: var(--pink-crl);
+  height: 18vh;
+  align-items: center;
+  position: relative;
+}
+.img-container {
+  width: 110px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 100px;
+  z-index: 1;
+}
+.img-container img {
+  border-radius: 50%;
+  height: 120px;
+}
+.name-title-container {
+  text-align: center;
+  margin-left: 110px;
+  padding-top: 15px;
+  position: relative;
+}
+.name {
+  font-size: 2rem;
+  border: 2px solid var(--main-white);
+  border-bottom: 0;
+  padding-bottom: 15px;
+  width: 320px;
+  position: absolute;
+  left: 25%;
+}
+.post {
+  margin-top: 45px;
+  font-style: italic;
+  font-weight: 600;
+}
+/********End of Head section styles*******/
+
+/*******The  middle part*******/
+
+.middle {
+  display: flex;
+}
+
+/********the left part******/
+.left-part {
+  flex: 1;
+  background-color: var(--gray-crl);
+}
+.profile-area {
+  margin: 15px 20px;
+  margin-top: 50px;
+}
+.contact-types {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.contact-types i {
+  font-size: 1.5rem;
+}
+.contact-types p {
+  padding-left: 25px;
+  font-size: 0.9rem;
+}
+.competence-types {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.volume {
+  height: 20px;
+  width: 50%;
+}
+.contex {
+  padding-left: 5px;
+}
+.good {
+  width: 65%;
+}
+.better {
+  width: 50%;
+}
+.poor {
+  width: 20%;
+}
+.social-media {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+.social-media i {
+  font-size: 2rem;
+}
+.social-media p {
+  padding-left: 20px;
+}
+/********End of the left part******/
+
+/********The right part************/
+.right-part {
+  flex: 2;
+  padding-top: 30px;
+}
+.items-container {
+  margin: 25px 5px;
+  display: flex;
+  align-items: baseline;
+}
+.dates {
+  padding-left: 20px;
+}
+.post-explt {
+  padding-left: 40px;
+  flex: 1;
+}
+.fa-play {
+  color: var(--title-back-crl);
+}
+.pos-title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.lang-type {
+  display: flex;
+  gap: 0 10px;
+  margin-bottom: 15px;
+}
+.lang-box {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  margin: 15px 20px;
+  grid-gap: 15px 20px;
+}
+/********End of the right part************/
+/*******End of The  middle part*******/
